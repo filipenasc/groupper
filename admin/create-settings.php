@@ -23,12 +23,13 @@ function groupper_custom_post_types() {
       'public'                => true,
       'menu_position'         => 30,
       'supports'              => array( 'title' ),
-      'has_archive'           => false,
+      'has_archive'           => true,
       'exclude_from_search'   => true,
       'show_in_admin_bar'     => true,
       'show_in_nav_menus'     => true,
-      'publicly_queryable'    => false,
-      'query_var'             => false
+      'publicly_queryable'    => true,
+      'query_var'             => true,
+      'rewrite'               => array( 'slug' => 'listas' )
   );
   register_post_type( 'groupper_cpt', $args );
 }
