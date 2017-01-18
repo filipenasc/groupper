@@ -1,4 +1,4 @@
-=== Groupper - Create lists of yours posts ===
+=== Groupper - Create lists of posts ===
 Contributors: Filipe Mateus do Nascimento
 Donate link: -
 Tags: groupper, lists, posts
